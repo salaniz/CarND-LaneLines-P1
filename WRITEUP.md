@@ -1,4 +1,4 @@
-#**Finding Lane Lines on the Road** 
+# **Finding Lane Lines on the Road** 
 
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
@@ -6,7 +6,7 @@ The goals / steps of this project are the following:
 
 ## Reflection
 
-###1. Pipeline
+### 1. Pipeline
 
 My lane detection pipeline consists of the following steps:  
 
@@ -81,7 +81,7 @@ images:
 Here is a gif showing part of the challenge video:  
 ![alt text](./resources/challenge.gif)
 
-###2. Shortcomings
+### 2. Shortcomings
 
 My version of the lane detection algorithm is tightly optimized for the given
 data. Therefore, it might not generalize well to road images which look
@@ -101,7 +101,7 @@ use my pipeline in a real-time scenario with the given video resolution and
 frame rate. An easy solution to this would be to reduce resolution and/or frame
 rate.
 
-###3. Improvements
+### 3. Improvements
 
 The algorithm can be improved by simply using more data to tune the parameters.
 Grid search will find a good set of parameters across the data. That said, some
